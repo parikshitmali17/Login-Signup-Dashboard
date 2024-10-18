@@ -25,7 +25,7 @@ export default function Sidebar() {
   return (
     <div className="flex h-screen">
       {/* Sidebar */}
-      <aside className="w-64 bg-gray-800 text-white h-screen p-4">
+      <aside className="w-64 bg-gray-800 text-white h-screen p-4 md:w-64 sm:w-1/2 xs:w-full">
         <nav className="flex flex-col space-y-4">
     
           <button
